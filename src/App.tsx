@@ -317,7 +317,7 @@ function App() {
                 Weekend In-Person <span className="text-yellow-400">Workshops</span>
               </h2>
               <p className="text-xl text-gray-300 mb-8">
-                Master essential outdoor skills with hands-on workshops led by certified instructors and GPS power users. Learn, explore, and connect with fellow adventurers.
+                Master essential outdoor skills with hands-on workshops led by Gaia & Trailforks power users. Learn, explore, and connect with fellow adventurers.
               </p>
               
               <div className="space-y-4 mb-8">
