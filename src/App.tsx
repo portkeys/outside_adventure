@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { 
   Mountain, 
@@ -10,14 +10,10 @@ import {
   Menu, 
   X,
   Play,
-  Award,
-  Shield,
   Compass,
-  Heart,
   ChevronLeft,
   ChevronRight,
-  Crown,
-  Video
+  Crown
 } from 'lucide-react';
 
 function App() {
@@ -453,7 +449,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              Choose Your <span className="text-yellow-400">Adventure Level</span>
+              Ready for Your <span className="text-yellow-400">Next Adventure?</span>
             </h2>
           </div>
 
@@ -586,51 +582,11 @@ function App() {
         </div>
       </section>
 
-      {/* Original Testimonials Section - Removed */}
-      {/* <section className="py-20 bg-gradient-to-b from-black to-gray-900">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              What Our <span className="text-yellow-400">Adventurers</span> Say
-            </h2>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            {testimonials.map((testimonial, index) => (
-              <div 
-                key={index}
-                className="bg-gray-800 rounded-2xl p-6 hover:bg-gray-700 transition-all duration-300"
-              >
-                <div className="flex items-center mb-4">
-                  {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star key={i} className="h-5 w-5 text-yellow-400 fill-current" />
-                  ))}
-                </div>
-                
-                <p className="text-gray-300 mb-6 italic">"{testimonial.text}"</p>
-                
-                <div className="flex items-center">
-                  <img 
-                    src={testimonial.avatar} 
-                    alt={testimonial.name}
-                    className="w-12 h-12 rounded-full object-cover mr-4"
-                  />
-                  <div>
-                    <p className="font-semibold">{testimonial.name}</p>
-                    <p className="text-sm text-gray-400">{testimonial.location}</p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section> */}
-
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-yellow-400 to-yellow-600">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">
-            Ready for Your Next Adventure?
+            Let's Go Outside
           </h2>
           <p className="text-xl text-black mb-8 opacity-90">
             Join thousands of adventurers who have discovered their limits and pushed beyond them with Outside.
