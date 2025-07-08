@@ -731,7 +731,7 @@ function App() {
                   {/* Map Section */}
                   <div className="bg-gray-800 rounded-xl p-6">
                     <img 
-                      src="/public/Everest Post-Trip copy.png" 
+                      src="/public/Everest Post-Trip.png"
                       alt="5-Day Everest Trek Map"
                       className="w-full h-auto rounded-lg"
                     />
